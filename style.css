@@ -1,0 +1,214 @@
+ /*started on 26-12-2023  */
+ 
+ /* Universal  */
+ html {
+    font-family: 'Hanken Grotesk', sans-serif, 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+:root{
+    /* Primary Colors */
+    --light:hsl(0, 100%, 67%);
+    --orange_yellow:hsl(39, 100%, 56%) ;
+    --green_teal: hsl(166, 100%, 37%) ; 
+    --cobalt_blue:hsl(234, 85%, 45%) ;
+
+    /* Gradient Colors */
+    --light_slate_blue:hsl(252, 100%, 67%) ;
+    --light_royale_blue:hsl(241, 81%, 54%) ;
+    --violet_blue:hsla(256, 72%, 46%, 1) ;
+    --persian_blue:hsla(241, 72%, 46%, 0) ;
+
+    /* Neutral Colors */
+    --white: hsl(0, 0%, 100%);
+    --pale_blue: hsl(221, 100%, 96%) ;
+    --light_lavender:hsl(241, 100%, 89%) ;
+    --dark_gray_blue:hsl(224, 30%, 27%) ;
+}
+
+/*  */
+
+
+
+/* Mobile Design First */
+/* Mobile Design First */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.header_section,
+.summary_section {
+    max-width: 375px;
+    width: 100%;
+}
+
+.header_section{
+    background-image: linear-gradient( var(--light_slate_blue),var( --light_royale_blue));
+    border-bottom-left-radius:3rem;
+    border-bottom-right-radius:3rem;
+    color: var(--light_lavender);
+}
+
+
+.header_section .header_box{
+    background-image: linear-gradient( var(--violet_blue), var(--light_royale_blue));
+    border-radius: 50%;
+    margin: 2rem auto 1.6rem ;
+    padding: 1.6rem 1rem;
+    width: 25%;
+}
+
+.header_box h1{
+    margin:0;
+    font-size: 3.2rem;
+    font-weight: 500;
+    color:#fff ;
+}
+.header_box h1 span{
+    font-size: .8rem;
+    display: block;
+    font-weight: light;
+    color:var(--light_lavender) ;
+}
+
+.header_bottom{
+    padding: 0 2rem;
+    
+}
+.header_bottom h3{
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:#fff ;
+    font-weight: 500;
+}
+.header_bottom p{
+    margin-top:.4rem;
+    margin-bottom: 1.8rem;
+    padding: 0 .6rem;
+}
+
+/* Summary Section */
+/* Summary Section */
+/* Summary Section */
+
+.summary_section {
+    text-align: left;
+}
+.summary_section .summary_header{
+    padding: 0 1.5rem;
+    font-size: 1.25rem;
+}
+
+.summary_section .summary_header h4{
+    margin:1rem 0;
+}
+
+.summary_section .summary_list{
+    padding: 0.5rem 1.5rem;
+}
+
+.summary_section .summary_list div{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem; 
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+
+
+/* Using Childs(feeling like CSS Boss :P )*/
+/* Using Childs(feeling like CSS Boss :V )*/
+/* Using Childs(feeling like CSS Boss :D )*/
+
+/*  Coding on 28-12-2023 */
+
+.summary_section .summary_list div:first-child{
+    background-color:#fff6f5 ;
+    color: #e33b46;
+  
+}
+.summary_section .summary_list div:last-child{
+    background-color: #f3f3fd;
+    color: #0210a2;
+}
+.summary_section .summary_list div:nth-child(2){
+    background-color: #fffbf2;
+    color: #e59e04;
+   }
+.summary_section .summary_list div:nth-child(3){
+    background-color: #f2fafa;
+    color: #027e5f;
+}
+
+.bold{
+    color: var(--dark_gray_blue);
+    font-weight: bold;
+    
+}
+.light{
+    color: #333;
+}
+
+.summary_footer {
+    padding:0 2rem;
+}
+
+.summary_footer button{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: .9rem;
+    background-color: #2e3a5a;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.summary_section .summary_list div li i{
+margin-right: .8rem;
+}
+
+/* End */
+/* End */
+/* End */
+
+/* Footer */
+
+.attribution{
+    color: #fff;
+    background-image: linear-gradient(to right, var(--violet_blue), var(--light_royale_blue), var(--violet_blue));
+    text-align: center;
+}
+
+
+.attribution p a{
+    color: #fff;
+    text-decoration: none;
+}
+.frontend{
+    font-size: 1rem;
+}
+
+.my_name{
+    font-size: 1.5rem;
+    padding: 0 0 1rem 0;
+    margin-top: 0;
+}
+
+/* Mobile End */
+/* 28-12-2023 */
+
+
+
