@@ -75,7 +75,6 @@ main{
 .header_box h1 span{
     font-size: .8rem;
     display: block;
-    font-weight: light;
     color:var(--light_lavender) ;
 }
 
