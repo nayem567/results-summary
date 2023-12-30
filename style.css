@@ -82,12 +82,9 @@ main{
     padding: 0 2rem;
     
 }
-.header_bottom h3{
-    font-size: 1.4rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
+.header_bottom h2{
+    /* font-size: 1.4rem; */
     color:#fff ;
-    font-weight: 500;
 }
 .header_bottom p{
     margin-top:.4rem;
@@ -134,7 +131,7 @@ main{
 
 .summary_section .summary_list ul:first-child{
     background-color:#fff6f5 ;
-    color: #e33b46;
+    color: #A3151F;
   
 }
 .summary_section .summary_list ul:last-child{
@@ -153,8 +150,8 @@ main{
 .bold{
     color: var(--dark_gray_blue);
     font-weight: bold;
-    
 }
+
 .light{
     color: #333;
 }
