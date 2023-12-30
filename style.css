@@ -115,7 +115,7 @@ main{
     padding: 0.5rem 1.5rem;
 }
 
-.summary_section .summary_list div{
+.summary_section .summary_list ul{
     display: flex;
     justify-content: space-between;
     padding: .5rem; 
@@ -132,20 +132,20 @@ main{
 
 /*  Coding on 28-12-2023 */
 
-.summary_section .summary_list div:first-child{
+.summary_section .summary_list ul:first-child{
     background-color:#fff6f5 ;
     color: #e33b46;
   
 }
-.summary_section .summary_list div:last-child{
+.summary_section .summary_list ul:last-child{
     background-color: #f3f3fd;
     color: #0210a2;
 }
-.summary_section .summary_list div:nth-child(2){
+.summary_section .summary_list ul:nth-child(2){
     background-color: #fffbf2;
     color: #e59e04;
    }
-.summary_section .summary_list div:nth-child(3){
+.summary_section .summary_list ul:nth-child(3){
     background-color: #f2fafa;
     color: #027e5f;
 }
